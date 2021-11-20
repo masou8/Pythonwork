@@ -1,0 +1,12 @@
+first_name = input('Enter your first name:')
+password = ['w@12']
+name = 'Joseph'
+
+if name == first_name:
+  print(f'Hello, {first_name}, the password is {password}')
+else:
+  print(f'Hello, {first_name}, see you later!')
+
+
+Enter your first name:Joseph
+Hello, Joseph, the password is ['w@12']
