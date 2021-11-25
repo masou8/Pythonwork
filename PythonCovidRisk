@@ -1,0 +1,13 @@
+print('Enter two answer choices: Yes and No')
+
+var_age = input('Are you a cigarette addict older than 75 years old?:')
+var_chronic = input('Do you have a severe chronic disease? :')
+var_immune = input('Is your immune system too weak? :') 
+
+risk = (var_age and (var_chronic or var_immune)) == 'yes'
+print(risk)
+
+if risk: 
+   print('You are in risky group')
+else:
+   print('You are not in risky group')
