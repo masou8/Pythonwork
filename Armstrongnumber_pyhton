@@ -1,0 +1,17 @@
+numer = int(input('enter a number: '))
+copy_num = number
+count = 0 
+
+while copy_num > 0:
+     count = count +1
+     copy_num = copy_num // 10
+sum = 0
+copy_num = number
+while copy_num > 0:
+  rem = copy_num %10
+  sum = sum + rem**count
+  copy_num = copy_num // 10
+if number== sum:
+       print(f"the number,{number} is an armstrong number")
+else:
+       print(f"the number,{number} is not an armstrong number")
