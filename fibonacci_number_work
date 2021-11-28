@@ -1,0 +1,9 @@
+number = int(input('enter any number: '))
+fib1 = 0
+fib2 = 1
+fib = 0
+while fib1 < number:
+  fib = fib1 + fib2
+  print(fib, end= ' ')
+  fib1 = fib2
+  fib2 = fib
